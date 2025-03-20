@@ -1,6 +1,3 @@
-Here’s the full code for your `README.md` file:  
-
-```md
 ***
 
 # 🏆 Car Racing Game  
@@ -27,7 +24,7 @@ Here’s the full code for your `README.md` file:
 
 ---
 
-## 📥 Installation & Usage  
+## 👅 Installation & Usage  
 ### Clone and Run Locally  
 1⃣ Clone the repository:  
    ```sh
@@ -52,6 +49,4 @@ This project is **open-source** and free to use. Give it a ⭐ if you like it!
 ---
 
 🚀 **Enjoy the race and stay tuned for more updates!** 😊
-```
 
-This will serve as a great `README.md` file for your project. Let me know if you need any changes! 🚀

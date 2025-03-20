@@ -4,7 +4,7 @@
 
 **An exciting car racing game built using HTML, CSS, and JavaScript.** Enjoy smooth controls, engaging graphics, and a thrilling gaming experience.  
 
-🚀 **Live Demo:** [https://nitin-sharma04.github.io/Car-racing-website](#) 
+🚀 **Live Demo:** [https://car-racing-website.netlify.app/](#) 
 
 ***
 

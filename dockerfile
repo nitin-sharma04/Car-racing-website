@@ -1,11 +1,18 @@
-# Dockerfile for a simple static website using Nginx
-FROM nginx:alpine
+# Use an official Node.js runtime as a parent image
+FROM node:18-alpine
 
-# remove the default nginx index.html file
-RUN rm -rf /usr/share/nginx/html/*
+# Set the working directory
+WORKDIR /app
 
-# Copy the static files from the current directory to the nginx html directory
-COPY . /usr/share/nginx/html
+# Copy source code
+COPY src/ ./src/
+COPY package*.json ./
 
-# port on which the container will listen
+# Install dependencies (if any)
+RUN npm install || true
+
+# Expose port
 EXPOSE 80
+
+# Start the app (replace with your actual start command)
+CMD ["npx", "serve", "src", "-l", "80"]
